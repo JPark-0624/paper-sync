@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="papers-sync는 Google Drive와 개인 컴퓨터의 연구 자료를 양방향으로 동기화하는 개인용 도구입니다.">
+  <title>papers-sync · Personal Google Drive sync</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="wrap header">
+    <a class="brand" href="./" aria-label="papers-sync 홈"><span class="mark" aria-hidden="true">p.</span>papers-sync</a>
+    <nav aria-label="주 메뉴"><a href="privacy.html">개인정보처리방침</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <p class="eyebrow">PERSONAL RESEARCH LIBRARY</p>
+      <h1>자료는 두 곳에.<br>작업은 이어지도록.</h1>
+      <p class="lead">papers-sync는 Google Drive의 지정 폴더와 개인 컴퓨터의 자료를 양방향으로 동기화하는 개인용 도구입니다.</p>
+      <p class="english" lang="en">A personal utility that keeps a selected Google Drive folder and a local research library in sync.</p>
+      <a class="button" href="privacy.html">데이터 처리 방식 살펴보기</a>
+    </section>
+    <section class="section" aria-labelledby="how">
+      <h2 id="how">어떻게 사용하나요?</h2>
+      <div class="flow"><span>개인 컴퓨터</span><span class="flow-label">양방향 동기화</span><span>Google Drive</span></div>
+      <p>컴퓨터에서 실행되는 rclone을 통해 본인의 Google 계정에 로그인합니다. 로그인 후 지정된 폴더의 추가·수정·삭제가 양쪽에 반영됩니다. 현재 구성은 로그인 중 5분 간격으로 실행되며, 충돌하는 버전과 변경·삭제 전 파일은 별도로 보존합니다.</p>
+      <p>이 웹사이트는 앱의 용도와 개인정보 처리 방식을 설명합니다. 웹사이트에서 파일을 업로드하거나 Google 계정에 로그인할 필요는 없습니다.</p>
+    </section>
+    <section class="section" aria-labelledby="access">
+      <h2 id="access">Google Drive 접근 권한</h2>
+      <p>기존 파일을 읽고, 업로드하고, 수정하거나 이동·삭제할 수 있는 Google Drive 권한을 요청합니다. Google이 발급하는 권한 범위는 Drive 전체에 적용되며, 동기화 프로그램은 설정된 폴더를 대상으로 실행됩니다.</p>
+      <p>파일은 Google Drive와 사용자의 컴퓨터 사이에서 전송됩니다. 이 안내 사이트는 Drive 파일이나 Google 인증 토큰을 수신하지 않습니다.</p>
+    </section>
+    <aside class="note"><strong>개인용 프로젝트</strong><p>운영자 본인의 파일 관리를 위한 도구이며, 공개 가입이나 다른 사용자를 위한 동기화 서비스를 제공하지 않습니다.</p></aside>
+  </main>
+  <footer class="wrap footer"><span>papers-sync · JPark-0624</span><a href="privacy.html">Privacy policy</a><a href="https://github.com/JPark-0624">운영자 GitHub</a></footer>
+</body>
+</html>
